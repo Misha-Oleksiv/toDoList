@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css">
+	<title>Document</title>
+</head>
+<body>
+	
+
+	<div class="wrapper">
+		<div class="container">
+
+			<div class="taskList" >
+				<h2>Task list</h2>
+				<ul id="taskList"></ul>
+			</div>
+			
+			<div id="newTask" class="newTask">
+				<h2>Add new task</h2>
+			<form id="form">
+				<input class="text" name="text" type="text" id="taskInput">
+				<div class="underline"></div>
+				
+				<button name="get" id="btn" class="btn" type="button">ADD</button>
+
+			</form>
+			</div>
+	
+		
+		</div>
+		<div id="mypopup">
+			<div class="popup-content">
+				<div class="popup-header">
+					<h3>Worning!!!</h3>
+					<span class="close">&times;</span>
+				</div>
+				<div class="popup-body">
+					<p class="body-info"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="./script.js"></script>
+</body>
+</html>
